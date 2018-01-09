@@ -1,0 +1,27 @@
+#wrapper {
+    width: 50vw;
+    background-color: aliceblue;
+    height: 400px;
+    margin: auto;
+}
+
+#wrapper h3 {
+    padding: 30px;
+    margin: 20px 20vw;
+    width: 300px;
+}
+
+#form {
+    border: 2px solid #c1d6e8;
+    width: 501px;
+    margin: auto;
+}
+#form input, button {
+    font-size: larger;
+}
+#answer {
+    font-size: 10pc;
+    color: palevioletred;
+    width: 200px;
+    margin: auto;
+}

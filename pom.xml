@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>consolecowgirl.name</groupId>
+    <artifactId>JavaServer</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+
+    <properties>
+        <atexpose.version>0.9.36</atexpose.version>
+        <atexpose.repo.url>http://maven-repo.atexpose.com/release</atexpose.repo.url>
+    </properties>
+
+    <repositories>
+        <repository>
+            <id>maven-repo.schinzel.io</id>
+            <url>http://maven-repo.schinzel.io/release</url>
+        </repository>
+        <repository>
+            <id>maven-repo.atexpose.com</id>
+            <url>${atexpose.repo.url}</url>
+        </repository>
+    </repositories>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.atexpose</groupId>
+            <artifactId>atexpose</artifactId>
+            <version>${atexpose.version}</version>
+        </dependency>
+    </dependencies>
+</project>
